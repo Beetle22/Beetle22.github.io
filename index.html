@@ -1,10 +1,106 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>My blog</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #66ecfd;
+        color: #000000;
+        text-align: center;
+        padding: 1em 0;
+      }
+      nav {
+        text-align: center;
+        margin: 1em 0;
+      }
+      nav a {
+        margin: 0 1em;
+        text-decoration: none;
+        color: #000000;
+      }
+      main {
+        max-width: 800px;
+        margin: 2em auto;
+        padding: 0 1em;
+      }
+      article {
+        margin-bottom: 2em;
+      }
+      h1,
+      h2 {
+        color: #000000;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+    <link href="index.css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Ollo Everyone!</h1>
-    <p>This is the beginning of my website home page.</p>
-    <p>It will eventually contain a list of links to all my blogs.</p>
+    <header>
+      <h1>Ollo Everyone</h1>
+    </header>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <main>
+      <article>
+        <h2>Beetle Blog</h2>
+        <p>Posted on July 4, 2024</p>
+        <img
+          src="https://ih0.redbubble.net/image.1399179995.9930/raf,360x360,075,t,fafafa:ca443f4786.jpg"
+          alt="pepe horray"
+        />
+        <p>My attempt at blog</p>
+        <p>paragraf 2 mmm yes</p>
+      </article>
+
+      <article>
+        <h2>More Blog</h2>
+        <p>Posted on July 4, 2024</p>
+        <img
+          src="https://example.com/another-image.jpg"
+          alt="Another Blog Image"
+        />
+        <p>
+          Quisque non metus eu nisl convallis fringilla. Praesent a massa non
+          neque hendrerit feugiat. In hac habitasse platea dictumst. Ut
+          tincidunt, nisl a sagittis pharetra, eros quam consectetur dolor, in
+          hendrerit libero justo at elit.
+        </p>
+        <p>
+          Aenean vel odio auctor, dapibus magna quis, hendrerit dui. Curabitur
+          cursus, mi vel fermentum pretium, lectus tortor luctus lectus, non
+          mollis sapien lorem nec lorem. Curabitur posuere facilisis velit vel
+          ullamcorper.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
   </body>
 </html>
